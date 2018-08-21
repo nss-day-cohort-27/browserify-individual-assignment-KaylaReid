@@ -90,7 +90,7 @@ $("body").on("click", (e) => {
             e.target.parentNode.remove();
         })
     }
-    // food and drink places 
+    // food and drink places event listener
     if(e.target.id === "save-place-button") {
         let place = {
             name: $("#place-name").val(),
