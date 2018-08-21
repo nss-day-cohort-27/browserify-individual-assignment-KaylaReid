@@ -6,9 +6,9 @@ const getData = Object.create(null, {
             .then(response => response.json())
         }
     },
-    getRestaurants: {
+    getfoodDrinks: {
         value: () => {
-            return fetch("http://localhost:8088/restaurants")
+            return fetch("http://localhost:8088/foodDrinks")
             .then(response => response.json())
         }
     },
@@ -33,14 +33,14 @@ const saveData = Object.create(null, {
                 .then(response => response.json())
             }
     },
-    saveRestaurants: {
-        value: (restaurant) => {
-            return fetch("http://localhost:8088/restaurants", {
+    savefoodDrinks: {
+        value: (foodDrink) => {
+            return fetch("http://localhost:8088/foodDrinks", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-                body: JSON.stringify(restaurant)
+                body: JSON.stringify(foodDrink)
             })
             .then(response => response.json())
         }
@@ -68,9 +68,9 @@ const deleteData = Object.create(null, {
             .then(response => response.json())
         }
     },
-    deleteRestaurants: {
-        value: (restaurant) => {
-            return fetch(`http://localhost:8088/restaurants/${restaurant}`, {
+    deletefoodDrinks: {
+        value: (foodDrink) => {
+            return fetch(`http://localhost:8088/foodDrinks/${foodDrink}`, {
                 method: "DELETE"
             })
             .then(response => response.json())

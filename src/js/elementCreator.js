@@ -15,9 +15,9 @@ const elementCreator = () => {
                 <div id="city-form-div"></div>
                 <div id="city-list-div"></div>
             </div>
-            <div id="resturant-container">
-                <div id="resturant-form-div"></div>
-                <div id="resturant-list-div"></div>
+            <div id="food-drink-container">
+                <div id="food-drink-form-div"></div>
+                <div id="food-drink-list-div"></div>
             </div>
             <div id="country-container">
                 <div id="country-form-div"></div>

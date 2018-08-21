@@ -13,6 +13,13 @@
       "id": 2
     }
   ],
-  "restaurants": [],
-  "countries": []
+  "foodDrinks": [],
+  "countries": [
+    {
+      "name": "Uganda",
+      "year": "2011",
+      "favThing": "I loved the amazing red dirt",
+      "id": 1
+    }
+  ]
 }
