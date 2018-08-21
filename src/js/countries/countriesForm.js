@@ -23,7 +23,7 @@ const addCountry = () => {
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button id="save-country-button" type="button" class="btn btn-primary">Save this country</button>
+              <button id="save-country-button" type="button" data-dismiss="modal" class="btn btn-primary">Save this country</button>
             </div>
           </div>
         </div>

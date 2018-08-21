@@ -6,6 +6,7 @@ const countryForm = require("./countries/countriesForm")
 const countriesList = require("./countries/countriesDom")
 const foodDrinkForm = require("./foodDrink/foodDrinkForm")
 const foodDrinkList = require("./foodDrink/foodDrinkDom")
+const getDate = require("./date")
 
 // this populates my DOM structure
 elementCreator();
@@ -35,11 +36,13 @@ dataManager.getData.getfoodDrinks()
 
 // global event listener
 $("body").on("click", (e) => {
+    // city event listeners
     if(e.target.id === "save-city-button") {
         let city = {
             name: $("#city-name").val(),
             rating: $("#city-rating").val(),
-            favThing: $("#city-favThing").val()
+            favThing: $("#city-favThing").val(),
+            date: getDate()
         }
         cityForm.clearCityForm();
         $("#city-list-div").html("")
@@ -65,7 +68,8 @@ $("body").on("click", (e) => {
         let country = {
             name: $("#country-name").val(),
             year: $("#country-year-visited").val(),
-            favThing: $("#country-favThing").val()
+            favThing: $("#country-favThing").val(),
+            date: getDate()
         }
         countryForm.clearCountryForm();
         $("#country-list-div").html("")
@@ -91,7 +95,8 @@ $("body").on("click", (e) => {
         let place = {
             name: $("#place-name").val(),
             rating: $("#place-rating").val(),
-            favThing: $("#place-favThing").val()
+            favThing: $("#place-favThing").val(),
+            date: getDate()
         }
         foodDrinkForm.clearFoodDrink();
         $("#food-drink-list-div").html("")

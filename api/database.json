@@ -1,32 +1,57 @@
 {
   "cities": [
     {
-      "name": "Nashville",
+      "name": "Nashville, TN",
       "rating": "7",
-      "favThing": "I love love love all the craft shows and festivals!",
+      "favThing": "I love the craft shows and festivals!",
+      "date": "08/21/2018 at 12:55:40 PM",
       "id": 1
     },
     {
-      "name": "Columbia SC",
-      "rating": "6",
-      "favThing": "I loved artista in the vista, it was an amazing monthly art crawl!",
+      "name": "Buffalo, TN",
+      "rating": "3",
+      "favThing": "Way way way to COLD!!!!",
+      "date": "08/21/2018 at 12:56:00 PM",
       "id": 2
+    },
+    {
+      "name": "Columbia, SC ",
+      "rating": "7",
+      "favThing": "The down town library was AMAZING!!!",
+      "date": "08/21/2018 at 12:57:00 PM",
+      "id": 3
     }
   ],
   "foodDrinks": [
     {
       "name": "Diskin",
       "rating": "10",
-      "favThing": "Babe Magnet",
+      "favThing": "The babe magnet rose is amazing and all the games they are make for a great time!",
+      "date": "08/21/2018 at 1:02:08 PM",
       "id": 1
+    },
+    {
+      "name": "The Grilled Cheeserie",
+      "rating": "10",
+      "favThing": "Grilled cheese, tots, and the best milk shake you've ever had!",
+      "date": "08/21/2018 at 1:03:18 PM",
+      "id": 2
     }
   ],
   "countries": [
     {
-      "name": "Uganda",
-      "year": "2011",
-      "favThing": "I loved the amazing red dirt",
+      "name": "Uganda ",
+      "year": "2007",
+      "favThing": "The red dirty was so pretty!",
+      "date": "08/21/2018 at 12:59:41 PM",
       "id": 1
+    },
+    {
+      "name": "Canada",
+      "year": "1997-2010",
+      "favThing": "Going to see niagara falls from the Canadian side since they have the better view!",
+      "date": "08/21/2018 at 1:01:16 PM",
+      "id": 2
     }
   ]
 }

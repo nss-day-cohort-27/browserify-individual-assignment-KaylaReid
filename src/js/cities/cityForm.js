@@ -23,7 +23,7 @@ const addCity = () => {
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button id="save-city-button" type="button" class="btn btn-primary">Save this city</button>
+            <button id="save-city-button" type="button" data-dismiss="modal" class="btn btn-primary">Save this city</button>
           </div>
         </div>
       </div>

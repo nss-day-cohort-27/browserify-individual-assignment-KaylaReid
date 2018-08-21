@@ -21,7 +21,7 @@ const addFoodDrink = () => {
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button id="save-place-button" type="button" class="btn btn-primary">Save this place</button>
+              <button id="save-place-button" type="button" data-dismiss="modal" class="btn btn-primary">Save this place</button>
             </div>
           </div>
         </div>
