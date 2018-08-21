@@ -22,7 +22,7 @@ const elementCreator = () => {
             <div id="food-drink-container">
                 <div id="food-drink-form-div"></div>
                 <div id="food-drink-list-div"></div>
-        </div>
+            </div><hr>
         </div>`
 }
 module.exports = elementCreator;
