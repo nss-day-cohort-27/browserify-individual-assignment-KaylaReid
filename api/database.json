@@ -1,0 +1,18 @@
+{
+  "cities": [
+    {
+      "name": "Nashville",
+      "rating": "7",
+      "favThing": "I love love love all the craft shows and festivals!",
+      "id": 1
+    },
+    {
+      "name": "Columbia SC",
+      "rating": "6",
+      "favThing": "I loved artista in the vista, it was an amazing monthly art crawl!",
+      "id": 2
+    }
+  ],
+  "restaurants": [],
+  "countries": []
+}
