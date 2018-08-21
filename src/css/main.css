@@ -24,3 +24,15 @@
 .food-drink-card {
     width: 30%;
 }
+#city-container{
+    background-color: rgba(184, 187, 229, 0.795);
+    padding: 1em;
+}
+#country-container{
+    background-color: rgba(254, 192, 68, 0.801);
+    padding: 1em;
+}
+#food-drink-container{
+    background-color: rgba(167, 226, 184, 0.705);
+    padding: 1em;
+}
