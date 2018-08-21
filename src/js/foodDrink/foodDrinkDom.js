@@ -10,7 +10,7 @@ const foodDrinkList = (place) => {
                         <p class="place-fav-things card-text"><span>My favorite things to order: </span>${place.favThing}</p>
                         <h5 class="date"><small>${place.date}</small></h5>
                     </div>
-                    <button id="delete-place--${place.id}" class="btn btn-primary">Delete</button>
+                    <button id="delete-place--${place.id}" class="btn button">Delete</button>
                 </div>
             </div>`)
 }

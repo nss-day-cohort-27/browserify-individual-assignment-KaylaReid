@@ -11,7 +11,7 @@ const cityList = (city) => {
                         <p class="fav-things card-text"><span>My favorite things about it: </span>${city.favThing}</p>
                         <h5 class="date"><small>${city.date}</small></h5>
                     </div>
-                    <button id="delete-city--${city.id}" class="btn btn-primary">Delete</button>
+                    <button id="delete-city--${city.id}" class="btn button">Delete</button>
                 </div>
             </div>`)
 }

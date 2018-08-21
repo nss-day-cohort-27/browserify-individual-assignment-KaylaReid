@@ -10,7 +10,7 @@ const countryList = (country) => {
                         <p class="fav-things card-text"><span>My favorite things about it: </span>${country.favThing}</p>
                         <h5 class="date"><small>${country.date}</small></h5>
                     </div>
-                    <button class="btn btn-primary" id="delete-country--${country.id}">Delete</button>
+                    <button class="btn button" id="delete-country--${country.id}">Delete</button>
                 </div>
             </div>`)
 }

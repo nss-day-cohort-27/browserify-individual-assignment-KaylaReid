@@ -4,7 +4,7 @@ const addCountry = () => {
     $("#country-form-div").append(`
         <div class="d-flex" id="city-form">
             <h3 class="section-header">Countries I've been to</h3>
-            <button type="button" id="add-country-button" class="btn btn-primary ml-3" data-toggle="modal" data-target="#country-modal">Add More</button>
+            <button type="button" id="add-country-button" class="btn button ml-3" data-toggle="modal" data-target="#country-modal">Add More</button>
         </div>
   
         <div id="country-modal" class="modal" tabindex="-1" role="dialog">
@@ -23,7 +23,7 @@ const addCountry = () => {
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button id="save-country-button" type="button" data-dismiss="modal" class="btn btn-primary">Save this country</button>
+              <button id="save-country-button" type="button" data-dismiss="modal" class="btn button">Save this country</button>
             </div>
           </div>
         </div>

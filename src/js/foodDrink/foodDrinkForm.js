@@ -2,7 +2,7 @@ const addFoodDrink = () => {
     $("#food-drink-form-div").append(`
         <div class="d-flex" id="food-drink-form">
             <h3 class="section-header">Best food & drink places I've been to</h3>
-            <button type="button" id="add-food-drink-button" class="btn btn-primary ml-3" data-toggle="modal" data-target="#food-drink-modal">Add More</button>
+            <button type="button" id="add-food-drink-button" class="btn button ml-3" data-toggle="modal" data-target="#food-drink-modal">Add More</button>
         </div>
   
         <div id="food-drink-modal" class="modal" tabindex="-1" role="dialog">
@@ -21,7 +21,7 @@ const addFoodDrink = () => {
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button id="save-place-button" type="button" data-dismiss="modal" class="btn btn-primary">Save this place</button>
+              <button id="save-place-button" type="button" data-dismiss="modal" class="btn button">Save this place</button>
             </div>
           </div>
         </div>
