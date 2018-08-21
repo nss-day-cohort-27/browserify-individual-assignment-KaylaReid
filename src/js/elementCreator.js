@@ -9,7 +9,7 @@ const elementCreator = () => {
     wrapper.innerHTML += 
         `<div>
             <h1 class="header-main"><spa id="words">Oh the places you'll go...</spa></h1>
-        </div>
+        </div><hr>
         <div>
             <div id="city-container">
                 <div id="city-form-div"></div>
