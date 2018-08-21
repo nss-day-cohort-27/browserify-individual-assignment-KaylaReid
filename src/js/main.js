@@ -11,6 +11,8 @@ const foodDrinkList = require("./foodDrink/foodDrinkDom")
 elementCreator();
 cityForm.addCity();
 countryForm.addCountry();
+foodDrinkForm.addFoodDrink();
+
 dataManager.getData.getCities()
         .then(cities => {
             cities.forEach(city => {
@@ -23,12 +25,17 @@ dataManager.getData.getCountries()
                 countriesList(country)
             })
         })
-
+dataManager.getData.getfoodDrinks()
+        .then((foodDrinks) => {
+            foodDrinks.forEach(foodDrink => {
+                foodDrinkList(foodDrink)
+            })
+        })
 
 
 // global event listener
 $("body").on("click", (e) => {
-        if(e.target.id === "save-city-button") {
+    if(e.target.id === "save-city-button") {
         let city = {
             name: $("#city-name").val(),
             rating: $("#city-rating").val(),
@@ -79,4 +86,32 @@ $("body").on("click", (e) => {
             e.target.parentNode.remove();
         })
     }
+    // food and drink places 
+    if(e.target.id === "save-place-button") {
+        let place = {
+            name: $("#place-name").val(),
+            rating: $("#place-rating").val(),
+            favThing: $("#place-favThing").val()
+        }
+        foodDrinkForm.clearFoodDrink();
+        $("#food-drink-list-div").html("")
+        dataManager.saveData.savefoodDrinks(place)
+            .then (() => {
+                dataManager.getData.getfoodDrinks()
+                .then(foodDrinks => {
+                    foodDrinks.forEach(foodDrink => {
+                        foodDrinkList(foodDrink)
+                    });
+                })
+            })
+    }
+    if(e.target.id.includes("delete-place")) {
+        console.log(e.target)
+        let deleteId = e.target.id.split("--")[1]
+        dataManager.deleteData.deletefoodDrinks(deleteId)
+        .then (() => {
+            e.target.parentNode.remove();
+        })
+    }
+   
 })

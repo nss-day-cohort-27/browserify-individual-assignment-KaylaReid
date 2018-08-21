@@ -15,14 +15,14 @@ const elementCreator = () => {
                 <div id="city-form-div"></div>
                 <div id="city-list-div"></div>
             </div>
-            <div id="food-drink-container">
-                <div id="food-drink-form-div"></div>
-                <div id="food-drink-list-div"></div>
-            </div>
             <div id="country-container">
                 <div id="country-form-div"></div>
                 <div id="country-list-div"></div>
             </div>
+            <div id="food-drink-container">
+                <div id="food-drink-form-div"></div>
+                <div id="food-drink-list-div"></div>
+        </div>
         </div>`
 }
 module.exports = elementCreator;

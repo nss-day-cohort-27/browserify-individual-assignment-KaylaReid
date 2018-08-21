@@ -13,7 +13,14 @@
       "id": 2
     }
   ],
-  "foodDrinks": [],
+  "foodDrinks": [
+    {
+      "name": "Diskin",
+      "rating": "10",
+      "favThing": "Babe Magnet",
+      "id": 1
+    }
+  ],
   "countries": [
     {
       "name": "Uganda",

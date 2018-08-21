@@ -4,7 +4,7 @@ const cityList = (city) => {
             <div id="city--${city.id}">
                 <div>
                     <h3 class="city-name">City: ${city.name}</h3>
-                    <h4 class="rating">Rating <small>(out of 10)</small>: ${city.rating}</h4>
+                    <h4 class="city-rating">Rating <small>(out of 10)</small>: ${city.rating}</h4>
                 </div>
                 <div>
                     <p class="fav-things"><span>My favorite things about it: </span>${city.favThing}</p>

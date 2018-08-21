@@ -18,7 +18,7 @@ const addCity = () => {
           </div>
           <div class="modal-body">
           <div>City Name: <br><input id="city-name" type="text"></div>
-          <div>Rating of how much you like this city on a scale of 1-10): <input id="city-rating" type="text"></div>
+          <div>Rating of how much you like this city out of 10: <input id="city-rating" type="text"></div>
           <div>Favorite things about this city: <br><input id="city-favThing" type="text"></div>
           </div>
           <div class="modal-footer">
