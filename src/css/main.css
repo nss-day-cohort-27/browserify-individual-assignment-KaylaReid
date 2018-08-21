@@ -1,0 +1,26 @@
+
+.header-main {
+    background: url(https://images.unsplash.com/photo-1472772224448-b24d00409675?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f1acde45bf9341522633bbfe7cd176c6&auto=format&fit=crop&w=1050&q=80) no-repeat center;
+    display: flex;
+    margin-bottom: 1em;
+    height: 400px;
+    width: auto;
+    color: whitesmoke;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+}
+#words {
+    margin-top: 8.7em;
+    margin-left: 2.3em;
+}
+#city-list-div,
+#country-list-div,
+#food-drink-list-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.city-card,
+.country-card,
+.food-drink-card {
+    width: 30%;
+}

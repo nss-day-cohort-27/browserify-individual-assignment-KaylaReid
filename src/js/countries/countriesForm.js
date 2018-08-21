@@ -3,7 +3,7 @@
 const addCountry = () => {
     $("#country-form-div").append(`
         <div class="d-flex" id="city-form">
-            <h3>Countries I've been to</h3>
+            <h3 class="section-header">Countries I've been to</h3>
             <button type="button" id="add-country-button" class="btn btn-primary ml-3" data-toggle="modal" data-target="#country-modal">Add More</button>
         </div>
   

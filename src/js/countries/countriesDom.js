@@ -1,6 +1,6 @@
 const countryList = (country) => {
     $("#country-list-div").append(`
-            <div id="country--${country.id}" class="card w-50 mb-3 mt-2">
+            <div id="country--${country.id}" class="card mb-3 mt-2 country-card">
                 <div class="card-body">
                     <div>
                         <h3 class="country-name card-title">Country: ${country.name}</h3>

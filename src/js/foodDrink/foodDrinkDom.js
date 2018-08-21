@@ -1,6 +1,6 @@
 const foodDrinkList = (place) => {
     $("#food-drink-list-div").append(`
-            <div id="food-drink--${place.id}" class="card w-50 mb-2 mt-2">
+            <div id="food-drink--${place.id}" class="card mb-2 mt-2 food-drink-card">
                 <div class="card-body">
                     <div>
                         <h3 class="place-name card-title">Place: ${place.name}</h3>

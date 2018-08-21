@@ -1,7 +1,7 @@
 const addFoodDrink = () => {
     $("#food-drink-form-div").append(`
         <div class="d-flex" id="food-drink-form">
-            <h3>Best food & drink places I've been to</h3>
+            <h3 class="section-header">Best food & drink places I've been to</h3>
             <button type="button" id="add-food-drink-button" class="btn btn-primary ml-3" data-toggle="modal" data-target="#food-drink-modal">Add More</button>
         </div>
   

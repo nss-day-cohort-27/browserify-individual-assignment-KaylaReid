@@ -3,7 +3,7 @@
 const addCity = () => {
   $("#city-form-div").append(`
       <div class="d-flex" id="city-form">
-          <h3>Cities I've been to</h3>
+          <h3 class="section-header">Cities I've been to</h3>
           <button type="button" id="add-city-button" class="btn btn-primary ml-3" data-toggle="modal" data-target="#city-modal">Add More</button>
       </div>
 

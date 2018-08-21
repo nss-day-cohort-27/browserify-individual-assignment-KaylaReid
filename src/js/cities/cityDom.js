@@ -1,7 +1,7 @@
 // build DOM reps of cities, resturants, and counties
 const cityList = (city) => {
     $("#city-list-div").append(`
-            <div id="city--${city.id}" class="card w-50  mb-2 mt-2">
+            <div id="city--${city.id}" class="card mb-2 mt-2 city-card">
                 <div class="card-body">
                     <div>
                         <h3 class="city-name card-title">City: ${city.name}</h3>
